@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ # 🧠⚡ Pathly
 
-## Getting Started
 
-First, run the development server:
+**Pathly** is an AI-powered career guidance platform designed to help students and early professionals gain clarity, build confidence, and take actionable steps toward the right career path.
 
+From personalized recommendations to resume building and productivity tracking, Pathly acts as a smart career companion — guiding users from uncertainty to direction.
+
+---
+
+## ✨ Key Features
+
+### 🤖 AI Career Coach & Recommender
+- Personalized career recommendations based on user interests, skills, and goals  
+- AI-driven insights to help users explore suitable career paths  
+- Smart suggestions for learning resources and next steps  
+
+### 📄 CV / Resume Builder
+- Clean, professional resume templates  
+- Step-by-step guided CV creation  
+- Export-ready resumes for job and internship applications  
+
+### ⏱️ Productivity Tracker
+- Track daily learning and career-related tasks  
+- Monitor consistency and progress over time  
+- Build discipline and accountability toward career goals  
+
+### 🧭 Career Roadmaps
+- Structured learning paths for different career tracks  
+- Clear milestones to reduce confusion and overwhelm  
+- Beginner-friendly and easy to follow  
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Next.js** – React framework for performance and scalability  
+- **TypeScript** – Type-safe and maintainable codebase  
+- **Tailwind CSS** – Utility-first styling for rapid UI development  
+- **Lucide Icons** – Clean and modern icon system  
+
+### Backend
+- **Supabase** – Authentication, storage, and backend services  
+- **PostgreSQL** – Reliable and scalable relational database  
+
+---
+
+## 🎯 Why Pathly?
+
+Many students struggle with:
+- Career uncertainty  
+- Lack of proper guidance  
+- Poor planning and productivity  
+
+**Pathly solves this by combining AI guidance, structured tools, and simple UX** to help users make confident, informed career decisions.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/your-username/pathly.git
+cd pathly
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
