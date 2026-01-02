@@ -28,7 +28,7 @@ export default function DashboardContent({ user }: { user: any }) {
     { title: "Network with PMs", status: "todo", icon: Users, color: "text-muted-foreground" },
   ];
 
-  // ... insights and quickAccess arrays unchanged ...
+ 
 
   return (
     <SidebarProvider>
@@ -40,7 +40,7 @@ export default function DashboardContent({ user }: { user: any }) {
           </header>
 
           <div className="p-6 space-y-6">
-            {/* Welcome Section */}
+          
             <div className="flex items-center justify-between">
               <div>
                 <h1 className="text-3xl font-bold text-foreground">
@@ -56,7 +56,6 @@ export default function DashboardContent({ user }: { user: any }) {
               </Button>
             </div>
 
-            {/* rest of your cards unchanged */}
           </div>
         </main>
       </div>
