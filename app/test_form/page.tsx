@@ -22,7 +22,7 @@ export default function MBTIPersonalityTest() {
     setError(null);
   };
 
-  // Fixed: Changed parameter name to questionId to match usage
+
   const handleOptionSelect = (questionId: string, letter: MBTILetter) => {
     setResponses(prev => ({ ...prev, [questionId]: letter }));
     setError(null);
@@ -30,7 +30,6 @@ export default function MBTIPersonalityTest() {
 
   const isStepComplete = () => {
     const currentQuestions = questionCategories[currentStep].questions;
-    // Fixed: Check if all questions in current category have responses
     return currentQuestions.every(question => responses[question.id] !== undefined);
   };
 
@@ -54,12 +53,11 @@ export default function MBTIPersonalityTest() {
       return;
     }
     setIsSubmitting(true);
-    // Dummy result calculation, replace with your logic
-    setTimeout(() => {
+        setTimeout(() => {
       setResult({
         type: Object.values(responses).join(''),
         description: 'Your MBTI result description here.',
-        scores: { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 } // Added missing scores property
+        scores: { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 } 
       });
       setIsSubmitting(false);
     }, 1000);
