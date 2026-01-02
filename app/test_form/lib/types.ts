@@ -1,4 +1,4 @@
-// types/mbti-types.ts
+
 export type MBTILetter = 'E' | 'I' | 'S' | 'N' | 'T' | 'F' | 'J' | 'P';
 
 export interface Option {
