@@ -1,4 +1,3 @@
-// components/QuestionCard.tsx
 'use client'
 
 import { QuestionCardProps } from "../lib/types";
